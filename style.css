@@ -11,3 +11,21 @@ img {
     width: 500px;
     height: auto;
 }
+.story-intro {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: white;
+    line-height: 1.8;
+}
+
+.story-intro h1,
+.story-intro h2,
+.story-intro h3 {
+    text-align: center;
+}
+
+.story-intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
