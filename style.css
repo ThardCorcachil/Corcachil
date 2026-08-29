@@ -24,7 +24,35 @@ img {
 .story-intro h3 {
     text-align: center;
 }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
 
+body > p {
+    width: 90%;
+    max-width: 800px;
+    margin: 25px auto;
+    font-size: 22px;
+    line-height: 1.9;
+}
+
+body > h2 {
+    text-align: center;
+    width: 90%;
+    margin: 40px auto 25px;
+}
+
+body > img {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    margin: 25px auto;
+}
 .story-intro p {
     font-size: 18px;
     margin-bottom: 20px;
