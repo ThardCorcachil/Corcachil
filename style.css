@@ -57,3 +57,20 @@ body > img {
     font-size: 18px;
     margin-bottom: 20px;
 }
+/* Center the main title */
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+/* Center and enlarge the navigation menu */
+nav {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+nav a {
+    margin: 0 12px;
+}
