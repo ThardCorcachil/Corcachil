@@ -97,9 +97,9 @@ nav a {
     margin: 0 12px;
 }
 .story-page {
-    max-width: 800px;
+    max-width: 750px;
     margin: 80px auto;
-    padding: 20px;
+    padding: 0  40px;
 }
 
 .story-page h3 {
@@ -114,8 +114,8 @@ nav a {
 
 .story-page p {
     font-size: 24px;
-    line-height: 1.8;
-    margin: 30px 0;
+    line-height: 2;
+    margin: 40px 0;
 }
 
 .date {
@@ -138,24 +138,25 @@ nav a {
 @media (max-width: 600px) {
 
     .story-page {
-        margin: 40px auto;
-        padding: 15px;
+        max-width: 90%;
+        margin: 50px auto;
+        padding: 0 20px;
     }
 
     .story-page h3 {
         font-size: 24px;
+        text-align: center;
     }
 
     .story-page h2 {
         font-size: 32px;
+        text-align: center;
+        margin: 35px 0;
     }
 
     .story-page p {
         font-size: 21px;
-        line-height: 1.8;
-    }
-
-    .page-navigation a {
-        font-size: 19px;
+        line-height: 2;
+        margin: 40px 0;
     }
 }
