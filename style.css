@@ -24,6 +24,32 @@ img {
 .story-intro h3 {
     text-align: center;
 }
+
+.story-intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.story-intro {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+    line-height: 1.9;
+    font-family: Arial, sans-serif;
+}
+
+.story-intro p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.story-intro h1,
+.story-intro h2,
+.story-intro h3 {
+    text-align: center;
+}
 body {
     margin: 0;
     padding: 0;
@@ -53,10 +79,6 @@ body > img {
     height: auto;
     margin: 25px auto;
 }
-.story-intro p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
 /* Center the main title */
 h1 {
     text-align: center;
@@ -73,4 +95,67 @@ nav {
 
 nav a {
     margin: 0 12px;
+}
+.story-page {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.story-page h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.story-page h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.story-page p {
+    font-size: 24px;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+
+.date {
+    text-align: center;
+    font-size: 20px !important;
+}
+
+.page-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.page-navigation a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+
+    .story-page {
+        margin: 40px auto;
+        padding: 15px;
+    }
+
+    .story-page h3 {
+        font-size: 24px;
+    }
+
+    .story-page h2 {
+        font-size: 32px;
+    }
+
+    .story-page p {
+        font-size: 21px;
+        line-height: 1.8;
+    }
+
+    .page-navigation a {
+        font-size: 19px;
+    }
 }
