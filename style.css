@@ -190,3 +190,18 @@ nav a {
         font-size: 24px !important;
     }
 }
+.story-intro {
+    margin-top: 30px;
+}
+
+.story-intro h3 {
+    margin-bottom: 25px;
+}
+
+.story-intro h1 {
+    margin-bottom: 45px;
+}
+
+.story-intro p {
+    margin-bottom: 30px;
+}
