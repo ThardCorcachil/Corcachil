@@ -512,3 +512,75 @@ h1:first-of-type::after {
 .chapter2 .story-page p {
     color: #000000;
 }
+/* Bigger text for Chapter 2 */
+.chapter2 {
+    font-size: 22px;
+}
+
+.chapter2 nav {
+    font-size: 30px;
+}
+
+.chapter2 h1 {
+    font-size: 70px;
+}
+
+.chapter2 h2 {
+    font-size: 44px;
+}
+
+.chapter2 h3 {
+    font-size: 28px;
+}
+
+.chapter2 p {
+    font-size: 24px;
+    line-height: 2;
+    margin-bottom: 32px;
+}
+
+.chapter2 .date {
+    font-size: 22px !important;
+}
+
+.chapter2 .page-navigation a {
+    font-size: 26px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .chapter2 {
+        font-size: 22px;
+    }
+
+    .chapter2 h1 {
+        font-size: 58px;
+    }
+
+    .chapter2 h2 {
+        font-size: 40px;
+    }
+
+    .chapter2 h3 {
+        font-size: 26px;
+    }
+
+    .chapter2 p {
+        font-size: 23px;
+        line-height: 2;
+        margin-bottom: 32px;
+    }
+
+    .chapter2 nav {
+        font-size: 25px;
+    }
+
+    .chapter2 .date {
+        font-size: 21px !important;
+    }
+
+    .chapter2 .page-navigation a {
+        font-size: 23px;
+    }
+}
