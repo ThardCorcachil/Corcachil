@@ -205,27 +205,22 @@ nav a {
 .story-intro p {
     margin-bottom: 30px;
 }
-/* Chapter 2 - Page spacing */
 .story-intro {
-    margin-top: 10px !important;
+    margin-top: -30px !important;
     padding-top: 0 !important;
 }
 
 .story-intro h3 {
-    margin-top: 10px !important;
-    margin-bottom: 15px !important;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
 }
 
 .story-intro h1 {
     margin-top: 10px !important;
-    margin-bottom: 25px !important;
+    margin-bottom: 20px !important;
 }
 
 .story-intro p {
     margin-top: 0 !important;
-    margin-bottom: 25px !important;
-}
-
-.page-navigation {
-    margin-top: 30px !important;
+    margin-bottom: 20px !important;
 }
