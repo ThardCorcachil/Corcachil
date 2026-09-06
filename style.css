@@ -394,3 +394,74 @@ body > img {
         margin-bottom: 30px;
     }
 }
+/* =========================================
+   CHAPTER 2 THEME
+   ========================================= */
+
+body.chapter2 {
+    background-color: #3f4528;
+    color: #eeeeee;
+}
+
+/* Chapter 2 title */
+body.chapter2 h1 {
+    color: #b5b99a;
+}
+
+/* Chapter 2 navigation */
+body.chapter2 nav a {
+    color: #d5d8bd;
+}
+
+body.chapter2 nav a:hover {
+    color: #ffffff;
+}
+
+/* Subtle background pattern */
+body.chapter2::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.08;
+
+    background-image:
+        repeating-linear-gradient(
+            45deg,
+            transparent 0,
+            transparent 18px,
+            #d5d8bd 19px,
+            transparent 20px
+        );
+
+    z-index: -1;
+}
+
+/* Story content */
+body.chapter2 .story-page,
+body.chapter2 .story-intro {
+    color: #eeeeee;
+}
+
+/* Chapter 2 headings */
+body.chapter2 .story-page h2,
+body.chapter2 .story-intro h2 {
+    color: #c6c9a5;
+}
+
+body.chapter2 .story-page h3,
+body.chapter2 .story-intro h3 {
+    color: #e0e2ca;
+}
+
+/* Navigation buttons */
+body.chapter2 .page-navigation a {
+    color: #d5d8bd;
+}
+
+body.chapter2 .page-navigation a:hover {
+    color: #ffffff;
+}
