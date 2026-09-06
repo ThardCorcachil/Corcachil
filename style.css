@@ -508,3 +508,7 @@ h1:first-of-type::after {
         opacity: 0;
     }
 }
+/* Chapter 2 story text */
+.chapter2 .story-page p {
+    color: #000000;
+}
