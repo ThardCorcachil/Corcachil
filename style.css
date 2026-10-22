@@ -508,86 +508,72 @@ h1:first-of-type::after {
         opacity: 0;
     }
 }
-/* Chapter 2 - Bigger Text */
+/* Characters Page - Dark Purple Background */
 
-body.chapter2 {
-    font-size: 22px;
+body.characters-page {
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(145, 65, 210, 0.18),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 85% 75%,
+            rgba(100, 40, 170, 0.20),
+            transparent 40%
+        ),
+        repeating-linear-gradient(
+            135deg,
+            transparent 0px,
+            transparent 80px,
+            rgba(190, 130, 255, 0.025) 82px,
+            transparent 84px
+        ),
+        linear-gradient(
+            135deg,
+            #100719,
+            #20102e,
+            #13091d,
+            #241033
+        );
+
+    background-attachment: fixed;
+    background-color: #100719;
+    color: #eee5ff;
+    min-height: 100vh;
 }
 
-body.chapter2 p {
-    font-size: 24px;
-    line-height: 2;
-    margin-bottom: 32px;
+/* Main Title */
+
+body.characters-page h1 {
+    color: #d6a0ff;
+    text-align: center;
+    text-shadow:
+        0 0 10px rgba(180, 100, 255, 0.6),
+        0 0 25px rgba(130, 50, 200, 0.4);
 }
 
-body.chapter2 h1 {
-    font-size: 70px;
+/* Section Title */
+
+body.characters-page h2 {
+    color: #c994ff;
+    text-align: center;
 }
 
-body.chapter2 h2 {
-    font-size: 44px;
+/* Paragraphs */
+
+body.characters-page p {
+    color: #e5d9f2;
+    line-height: 1.8;
 }
 
-body.chapter2 h3 {
-    font-size: 28px;
+/* Home Link */
+
+body.characters-page a {
+    color: #d5a6ff;
+    transition: color 0.3s ease;
 }
 
-body.chapter2 nav {
-    font-size: 30px;
-}
-
-body.chapter2 nav a {
-    font-size: 30px;
-}
-
-body.chapter2 .date {
-    font-size: 22px !important;
-}
-
-body.chapter2 .page-navigation a {
-    font-size: 26px;
-}
-
-
-/* Mobile */
-
-@media (max-width: 600px) {
-
-    body.chapter2 {
-        font-size: 23px;
-    }
-
-    body.chapter2 p {
-        font-size: 25px;
-        line-height: 2;
-        margin-bottom: 34px;
-    }
-
-    body.chapter2 h1 {
-        font-size: 60px;
-    }
-
-    body.chapter2 h2 {
-        font-size: 42px;
-    }
-
-    body.chapter2 h3 {
-        font-size: 28px;
-    }
-
-    body.chapter2 nav {
-        font-size: 26px;
-    }
-
-    body.chapter2 nav a {
-        font-size: 26px;
-    }
-
-    body.chapter2 .date {
-        font-size: 23px !important;
-    }
-
-    body.chapter2 .page-navigation a {
-        font-size: 24px;
-    }
+body.characters-page a:hover {
+    color: #ffffff;
 }
