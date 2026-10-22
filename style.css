@@ -577,3 +577,66 @@ body.characters-page a {
 body.characters-page a:hover {
     color: #ffffff;
 }
+/* Character Profiles */
+
+.character-container {
+    max-width: 800px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.character-card {
+    background: rgba(30, 14, 48, 0.88);
+    border: 1px solid #7541a5;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(135, 65, 190, 0.18);
+}
+
+.character-card h2 {
+    color: #d6a0ff;
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 1px solid #7541a5;
+    padding-bottom: 15px;
+}
+
+.character-info h3 {
+    color: #c994ff;
+    margin-top: 28px;
+}
+
+.character-info p,
+.character-info li {
+    color: #eee5ff;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.character-info ul {
+    padding-left: 25px;
+}
+
+.character-info strong {
+    color: #d6a0ff;
+}
+
+.characters-page > p {
+    text-align: center;
+    margin: 35px 0;
+}
+
+@media (max-width: 600px) {
+    .character-card {
+        padding: 20px;
+    }
+
+    .character-card h2 {
+        font-size: 26px;
+    }
+
+    .character-info p,
+    .character-info li {
+        font-size: 16px;
+    }
+}
