@@ -640,3 +640,74 @@ body.characters-page a:hover {
         font-size: 16px;
     }
 }
+/* Chapter 3 - Navy Blue Geometric Theme */
+
+body.chapter3 {
+    background-color: #071426;
+    background-image:
+        radial-gradient(
+            circle at 50% 50%,
+            transparent 0,
+            transparent 35px,
+            rgba(90, 145, 200, 0.10) 36px,
+            rgba(90, 145, 200, 0.10) 37px,
+            transparent 38px
+        ),
+        repeating-linear-gradient(
+            45deg,
+            transparent 0,
+            transparent 39px,
+            rgba(100, 155, 210, 0.07) 40px,
+            transparent 41px
+        ),
+        repeating-linear-gradient(
+            -45deg,
+            transparent 0,
+            transparent 39px,
+            rgba(100, 155, 210, 0.07) 40px,
+            transparent 41px
+        );
+
+    background-size: 80px 80px, 80px 80px, 80px 80px;
+    background-attachment: fixed;
+    color: #e6edf7;
+}
+
+/* Chapter 3 title */
+
+body.chapter3 h1 {
+    color: #9bbce2;
+}
+
+/* Navigation */
+
+body.chapter3 nav a {
+    color: #c3d9f5;
+}
+
+body.chapter3 nav a:hover {
+    color: #ffffff;
+}
+
+/* Story content */
+
+body.chapter3 .story-page {
+    color: #e6edf7;
+}
+
+/* Page headings */
+
+body.chapter3 .story-page h2,
+body.chapter3 .story-page h3 {
+    color: #9bbce2;
+}
+
+/* Page navigation */
+
+body.chapter3 .page-navigation a {
+    color: #c3d9f5;
+}
+
+body.chapter3 .page-navigation a:hover {
+    color: #ffffff;
+}
