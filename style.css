@@ -711,3 +711,47 @@ body.chapter3 .page-navigation a {
 body.chapter3 .page-navigation a:hover {
     color: #ffffff;
 }
+/* Chapter 4 - Mark Ancient */
+
+body.chapter4 {
+    background-color: #B92E36;
+    background-image:
+        repeating-linear-gradient(
+            45deg,
+            transparent 0,
+            transparent 49px,
+            rgba(255, 255, 255, 0.045) 50px,
+            transparent 51px
+        );
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+body.chapter4 h1 {
+    color: #ffffff;
+}
+
+body.chapter4 nav a {
+    color: #ffe1e1;
+}
+
+body.chapter4 nav a:hover {
+    color: #ffffff;
+}
+
+body.chapter4 .story-page {
+    color: #ffffff;
+}
+
+body.chapter4 .story-page h2,
+body.chapter4 .story-page h3 {
+    color: #ffe1e1;
+}
+
+body.chapter4 .page-navigation a {
+    color: #ffe1e1;
+}
+
+body.chapter4 .page-navigation a:hover {
+    color: #ffffff;
+}
